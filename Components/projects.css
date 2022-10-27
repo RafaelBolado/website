@@ -1,0 +1,13 @@
+.projects {
+  display: flex;
+  height: 80%;
+  align-items: center;
+}
+
+.projects-content {
+  flex-basis: 50%;
+}
+
+#projects-text {
+  cursor: pointer;
+}

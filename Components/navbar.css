@@ -1,0 +1,85 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 150px;
+  cursor: pointer;
+}
+
+.menu ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu li {
+  list-style: none;
+  padding: 15px;
+}
+
+.menu p {
+  text-decoration: none;
+  font-family: Suiss Book;
+  color: #fff;
+  font-size: 18px;
+}
+
+.menu p:hover {
+  text-decoration: underline;
+}
+
+.burger-menu {
+  position: absolute;
+  top: 35px;
+  right: 15px;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+
+.burger-menu .bar {
+  height: 3px;
+  width: 100%;
+  background-color: white;
+}
+
+@media (max-width: 680px) {
+
+  .burger-menu {
+    display: flex;
+  }
+
+  .menu {
+    display: none;
+    width: 100%;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 21px;
+  }
+
+  .menu ul{
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .menu li {
+    text-align: center;
+  }
+
+  .menu li p {
+    padding: 5px;
+  }
+
+  .media.active {
+    display: flex;
+  }
+
+}

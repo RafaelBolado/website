@@ -1,0 +1,74 @@
+.press {
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 2%;
+}
+
+.press-title h2 {
+  cursor: pointer;
+}
+
+.mag ul{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+}
+
+.mag li {
+  list-style: none;
+  padding: 20px;
+}
+
+#AD, #metropolis {
+  height: 12vh;
+}
+
+#detail {
+  height: 6vh;
+}
+
+@media (max-width: 1000px) {
+
+  .mag {
+    width: 100%;
+  }
+  .press {
+    flex-direction: column;
+  }
+  .mag ul{
+    width: 100%;
+    padding: 0;
+    align-items: center;
+    flex-direction: column;
+  }
+  .mag li {
+    text-align: center;
+  }
+
+}
+
+@media (max-width: 490px) {
+
+  #AD, #metropolis {
+  height: 8vh;
+  }
+  #detail {
+  height: 4vh;
+  }
+  .mag {
+    width: 100%;
+  }
+  .press {
+    flex-direction: column;
+  }
+  .mag ul{
+    width: 100%;
+    padding: 0;
+    align-items: center;
+    flex-direction: column;
+  }
+  .mag li {
+    text-align: center;
+  }
+
+}

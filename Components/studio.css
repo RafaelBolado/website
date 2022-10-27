@@ -1,0 +1,42 @@
+.right-studio {
+  flex-basis: 50%;
+  background: #F2DB1E;
+  padding-left: 2%;
+  align-items: center;
+  display: flex;
+}
+
+.caption {
+  flex-basis: 95%;
+}
+
+.caption h2 {
+  cursor: pointer;
+}
+
+.left-flag {
+  background-image: url(../images/flag.svg);
+  background-size: cover;
+  box-sizing: border-box;
+  background-position: center;
+}
+
+.left-flag, .right-studio {
+    width: 100%;
+    height: 25vh;
+    position: relative;
+}
+
+@media screen and (min-width: 680px) {
+
+  .studio {
+    display: flex;
+    margin: 0;
+  } 
+
+  .left-flag, .right-studio {
+    width: 50%;
+    height: 50vh;
+  }
+
+}

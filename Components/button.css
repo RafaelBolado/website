@@ -1,0 +1,15 @@
+button {
+  width: 150px;
+  color: #fff;
+  font-size: 18px;
+  font-family: Suiss Book;
+  padding: 12px 0;
+  background: #FF3F00;
+  text-decoration: none;
+  border: none;
+}
+
+button:hover {
+  background-color: #334630;
+  color: white;
+}

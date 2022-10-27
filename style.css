@@ -1,0 +1,65 @@
+@import url("Components/navbar.css");
+@import url("Components/projects.css");
+@import url("Components/homescreen-background.css");
+@import url("Components/studio.css");
+@import url("Components/press.css");
+@import url("Components/footer.css");
+@import url("Components/button.css");
+
+@font-face {
+  font-family: Suiss Book;
+  src: url(fonts/Suiss-Book.ttf);
+}
+
+@font-face {
+  font-family: Suiss Medium;
+  src: url(fonts/Suiss-Medium.ttf);
+}
+
+@font-face {
+  font-family: Suiss Light;
+  src: url(fonts/Suiss-Light.ttf);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #fff;
+  font-family: Suiss Light;
+  font-size: 30px;
+  text-decoration: underline;
+  margin-bottom: 25px;
+}
+
+h2 {
+  color: #000;
+  font-family: Suiss Light;
+  font-size: 28px;
+  text-decoration: underline;
+  margin-bottom: 40px;
+}
+
+h3 {
+  color: #fff;
+  font-family: Suiss Light;
+  font-size: 20px;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
